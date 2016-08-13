@@ -15,128 +15,128 @@
 
         // Varsayılan Metinler
         var i18n = {
-            empty_dir               :   'Dizin Boş',
-            empty_file              :   'Dosya Boş',
-            loading                 :   'Yükleniyor...',
-            file_size	            :	'Dosya Boyutu',
-            file_name           	:	'Dosya Adı',
-            file_cdate	            :	'Dosya Oluşturulma Tarihi',
-            faild_process	        :	'İşlem Gerçekleşemedi',
-            access_not_head		    :	'Erişim İzni Yok',
-            access_not_content	    :	'Erişim İzniniz Yok Lütfen Giriş Yapmayı Deneyiniz Hala Bu Sorunla Karşılaşırsanız Lüftfen Yönetici İle Görüşünüz.',
-            bottom_file			    :	'{0} Dosya ( {1} )',
-            load_directory	        :  	'Dizinler Yükleniyor',
-            read_permission	        :	'Okuma İzni',
-            write_permission        :	'Yazma İzni',
-            read_write_permission	:	'Yazma ve Okuma İzni',
-            directory	            :	'Klasör',
+            empty_dir               :   'Directory empty',
+            empty_file              :   'File empty',
+            loading                 :   'Loading...',
+            file_size	            :	'File Size',
+            file_name           	:	'File Name',
+            file_cdate	            :	'File Created Date',
+            faild_process	        :	'Failed to process',
+            access_not_head		    :	'Access not permitted',
+            access_not_content	    :	'Access not premitted, Administrator only',
+            bottom_file			    :	'{0} File ( {1} )',
+            load_directory	        :  	'Loading Directory',
+            read_permission	        :	'Read Permission',
+            write_permission        :	'Write Permission',
+            read_write_permission	:	'Read/Write Permission',
+            directory	            :	'Directory',
 
             error   :
             {
-                large_file  	        :	'Dosya Boyutu İzin Verilen Dosya Boyutundan Fazla \n İzin Verilen Dosya Boyutu: {0}',
-                error_type	            :	'Yüklemeye Çalıştığınız Dosya Türüne İzin Verilmemiş \n İzin Verilen Dosya Türü(leri):\n {0}.',
-                load_error	            :	'Bir Hata Meydana Geldi ve Dosya Yüklenemedi Hata Sebebi: "{0}" Olabilir.',
-                select_file_error	    :	'Bir Hata Meydana Geldi ve Dosya Açılamadı, Açmaya Çalıştığınız Dosya Sunucuda Olmayabilir.',
-                error_msg	            :	'Beklenmedik Bir Hata Meydana Geldi',
-                download_error	        :	'Bir Hata Meydana Geldi ve Dosya İndirilemiyor Hata Sebebi: "{0}" Olabilir. \n  Dosya Arşive Eklenirken Hata Oluşmuş Olabilir Klasor Adıyla Aynı Arşiv Dosyası Olmadığından Emin Olun',
-                copy_error	            :	'Bir Hata Meydana Geldi ve Koyalama İşlemi Gerçekleştirilemedi Hata Sebebi "{0}" Olabilir.',
-                replace_error           : 'Bir Hata Meydana Geldi ve Dosya Değiştirilemedi İşlem İptal Edildi, Hata Sebebi "{0}" Olabilir.',
-                duplicate_error	        :	'Bir Hata Meydana Geldi ve Seçtiğiniz Dosyanın Kopyası Oluşturulamadı Hata Sebebi: "{0}" Olabilir.',
-                rename_error	        :	'Bir Hata Meydana Geldi ve Dosya Adı Değiştirilemedi Hata Sebebi: "{0}" Olabilir.',
-                edit_error	            :	'Bir Hata Meydana Geldi, Açmaya Çalıştığınız Dosyanın Sunucuda Olmaya Bilir.',
-                delete_error_0	        :	'Silmeye Çalıştığınız Dosyaya Erişilemiyor Dosya Olmayabilir.',
-                delete_error_1	        :  	'Bir Hata Meydana Geldi ve Dosya Silme İşlemi Gerçekleştirilemedi Hata Sebebi: "{0}" Olabilir.',
-                new_directory_error_1	:	'Bu İsimde Dosya Var',
-                new_directory_error_0	:	'Bir Hata Meydana Geldi ve Klasör Oluşturulamadı, Hata Sebebi: "{0}" Olabilir.'
+                large_file  	        :	'Error: File excess of a given permitted File Size {0}',
+                error_type	            :	'File Types not permitted:\n {0}.',
+                load_error	            :	'Load error: "{0}".',
+                select_file_error	    :	'Select file Error.',
+                error_msg	            :	'Unexpected error',
+                download_error	        :	'Download error: "{0}" Olabilir. \n  Please check the file name, there may be duplicate error',
+                copy_error	            :	'Copy error: "{0}".',
+                replace_error           :   'Replace error: "{0}".',
+                duplicate_error	        :	'Duplicate error: "{0}".',
+                rename_error	        :	'Rename error: "{0}".',
+                edit_error	            :	'Edit Error.',
+                delete_error_0	        :	'File can not be deleted, file not accessible.',
+                delete_error_1	        :  	'Delete Error: "{0}".',
+                new_directory_error_1	:	'File/Directory name has been used',
+                new_directory_error_0	:	'New Directory Error: "{0}".'
             },
 
             dialog  :
             {
-                info_h	                :	'Bilgiler',
-                info_size	            :	'Boyutu:',
-                info_addres	            :	'Adresi:',
+                info_h	                :	'Information',
+                info_size	            :	'Size:',
+                info_addres	            :	'Address:',
                 info_url	            :	'Link:',
-                info_cdate          	:	'Oluşturulma Tarihi:',
-                info_mdate	            :	'Son Değişiklik Tarihi:',
-                info_file_permission	:	'Dosya İzinleri:',
-                preview_h	            :	'Önizle',
-                preview_size	        :	'Boyutu:',
-                preview_addres	        :	'Adresi:',
+                info_cdate          	:	'Created Date:',
+                info_mdate	            :	'Last Modified Date:',
+                info_file_permission	:	'File Permission:',
+                preview_h	            :	'Preview',
+                preview_size	        :	'Size:',
+                preview_addres	        :	'Addres:',
                 preview_url	            :	'Link:',
-                preview_cdate	        :	'Oluşturulma Tarihi:',
-                preview_mdate	        :	'Son Değişiklik Tarihi:',
-                file_replace_h	        :	'Dosya Değiştir veya Atla',
-                file_replace_content	:	'Hedefte Zaten "{0}" Adında Bir Dosya Var Üzerine Yazılsınmı?',
-                cancel	                :	'İptal Et',
-                ok	                    :	'Evet',
-                close	                :	'Kapat',
-                delete	                :	'Sil',
-                delete_h	            :	'{0} Sil',
-                delete_content	        :	'{0} Kalıcı Olarak Silmek İstediğinize Eminmisiniz?',
-                settings_h	            :	'Ayarlar',
-                settings_icon_view	    :	'Simge Görünümü',
-                settings_list_view	    :	'Liste Görünümü',
-                settings_show_size	    :	'Dosya Boyutunu Göster',
-                settings_show_date	    :	'Dosya Oluşturulma Tarihini Göster',
-                sorter_h	            :	'Sıralama Düzenle',
-                sorter_name	            :	'Ada Göre Sırala',
-                sorter_size	            :	'Boyutuna Göre Sırala',
-                sorter_date	            :	'Tarihe Göre Sırala',
-                sorter_kind	            :	'Dosya Türüne Göre Sırala'
+                preview_cdate	        :	'Created Date:',
+                preview_mdate	        :	'Last Modified Date:',
+                file_replace_h	        :	'File Replace',
+                file_replace_content	:	'File already exist: "{0}" do you want to replace it?',
+                cancel	                :	'Cancel',
+                ok	                    :	'OK',
+                close	                :	'Close',
+                delete	                :	'Delete',
+                delete_h	            :	'{0} Delete',
+                delete_content	        :	'{0} Are you sure you want to delete permanently?',
+                settings_h	            :	'Settings',
+                settings_icon_view	    :	'Icon View',
+                settings_list_view	    :	'List View',
+                settings_show_size	    :	'Show File Size',
+                settings_show_date	    :	'Show File Created Date',
+                sorter_h	            :	'Sorting',
+                sorter_name	            :	'Sort by Name',
+                sorter_size	            :	'Sort by Size',
+                sorter_date	            :	'Sort by Date',
+                sorter_kind	            :	'Sort by Type'
             },
 
             contextmenu :
             {
-                file_open	        :	'Aç',
-                file_preview	    :	'Önizle',
-                file_download	    :   'İndir',
-                file_copy	        :	'Kopyala',
-                file_cut	        :	'Kes',
-                file_duplicate	    :	'Kopyasını Oluştur',
-                file_rename	        :	'Yeniden Adlandır',
-                file_delete	        :   'Sil',
-                file_info	        :	'Bilgiler',
-                wrapper_paste	    :	'Yapıştır',
-                wrapper_list_view	:	'Liste Görünümü',
-                wrapper_icon_view	:	'Simge Görünümü',
-                wrapper_upload	    :	'Dosya Yükle',
-                wrapper_newfolder	:	'Yeni Klasör',
-                wrapper_refresh	    :	'Yenile',
-                wrapper_show_size	:	'Boyutu Göster / Gizle',
-                wrapper_show_date	:	'Tarihi Göster / Gizle',
-                wrapper_namesorter	:	'Ada Göre Sırala',
-                wrapper_sizesorter	:	'Boyuta Göre Sırala',
-                wrapper_datesorter	:	'Tarihe Göre Sırala',
-                wrapper_kindsorter	:	'Türüne Göre Sırala'
+                file_open	        :	'Open',
+                file_preview	    :	'Preview',
+                file_download	    :   'Download',
+                file_copy	        :	'Copy',
+                file_cut	        :	'Cut',
+                file_duplicate	    :	'Duplicate',
+                file_rename	        :	'Rename',
+                file_delete	        :   'Delete',
+                file_info	        :	'Info',
+                wrapper_paste	    :	'Paste',
+                wrapper_list_view	:	'List View',
+                wrapper_icon_view	:	'Icon View',
+                wrapper_upload	    :	'File Upload',
+                wrapper_newfolder	:	'Yeni Directory',
+                wrapper_refresh	    :	'Refresh',
+                wrapper_show_size	:	'Show / Hide Size',
+                wrapper_show_date	:	'Show / Hide Date',
+                wrapper_namesorter	:	'Sort By Name',
+                wrapper_sizesorter	:	'Sort By Size',
+                wrapper_datesorter	:	'Sory By Date',
+                wrapper_kindsorter	:	'Sort By Type'
             },
 
             widget_menu	:
             {
                 up_folder	:	'Üst Klasor',
-                upload		:	'Yükle',
+                upload		:	'Upload',
                 new_folder	:	'Yeni Klasor',
-                refresh		:	'Yenile',
-                download	:	'İndir',
-                info		:	'Bilgiler',
-                preview		:	'Ön İzle',
-                edit		:	'Düzenle',
-                copy		:	'Kopyala',
-                cut			:	'Kes',
-                paste		:	'Yapıştır',
-                duplicate	:	'Kopyasını Oluştur',
-                rename		:	'Yeniden Adlandır',
-                delete		:	'Sil',
+                refresh		:	'Refresh',
+                download	:	'Download',
+                info		:	'Info',
+                preview		:	'Preview',
+                edit		:	'Edit',
+                copy		:	'Copy',
+                cut			:	'Cut',
+                paste		:	'Paste',
+                duplicate	:	'Duplicate',
+                rename		:	'Rename',
+                delete		:	'Delete',
                 settings	:	'Ayarlar',
-                icon_view	:	'Simge Görünümü',
-                list_view	:	'Liste Görünümü',
-                show_size	:	'Boyutu Göster',
-                show_date	:	'Oluşturulma Tarihini Göster',
+                icon_view	:	'Icon View',
+                list_view	:	'List View',
+                show_size	:	'Size Göster',
+                show_date	:	'Created Date Göster',
                 sort		:	'Sırala',
-                name_sorter	:	'Ada Göre Sırala',
-                size_sorter	:	'Boyuta Göre Sırala',
-                date_sorter	:	'Tarihe Göre Sırala',
-                kind_sorter	:	'Türüne Göre Sırala',
-                about		:	'Hakkında'
+                name_sorter	:	'Sort By Name',
+                size_sorter	:	'Sort By Size',
+                date_sorter	:	'Sory By Date',
+                kind_sorter	:	'Sort By Type',
+                about		:	'About'
             }
         };
 
@@ -290,7 +290,7 @@
 
 
 
-        //HTML'yi Yükle
+        //HTML'yi Upload
 	fcfinder.append('<div class="left"><div id="all_folders">'+
         '<ul class="folders">'+
         '<li><a><span class="folder">'+opts.i18n.loading+'<span class="load"></span></span>'+
@@ -362,7 +362,7 @@
 
 
 
-        //Dosya Boyutu ve Tarihi Görünüyormu
+        //File Size ve Date Görünüyormu
         var is_show_size = Cookies.getCookie("FCFINDER_size_show")=="true"?" style=\"display:block;\"":"";
         var is_show_date = Cookies.getCookie("FCFINDER_date_show")=="true"?" style=\"display:block;\"":"";
 
@@ -375,7 +375,7 @@
 
 
 
-        //Dosyaları Yükle
+        //Dosyaları Upload
         $.ajax({url:opts.url,dataType:'json',type:'POST',success:function(_data) {
             //İzin Yoksa Hata Ver
             if (_data == "Access not allowed!") {
@@ -386,7 +386,7 @@
                 fcfinder.find("ul.bottom").html("");
             }
             else{
-                //İzin Varsa Dosyaları Yükle
+                //İzin Varsa Dosyaları Upload
                 if (fcfinder.find("ul.bottom li[data-path='fcdir:/']").size()===0){
                     fcfinder.find("ul.bottom").html("").append('<li data-path="fcdir:/">'+opts.i18n.bottom_file.format(_data[1],_data[2])+'</li>');}
                 var data = _data[0];
@@ -430,7 +430,7 @@
 
 
 
-        //Yükleme İnputu Seçilince Formu Submit Et
+        //Upload İnputu Seçilince Formu Submit Et
         $body.on("change",fcfinder_selector+" input.upload_field",function(){
             fcfinder.find("input[name='fcfinder[path]']").val(fcfinder.find(".left #all_folders ul li a.active").attr("href"));
             $(this).closest('form').trigger('submit');
@@ -531,7 +531,7 @@
 
 
 
-        //Klasör Ağacından Klasör Seçildiğinde
+        //Directory Ağacından Directory Seçildiğinde
         $body.on("click",fcfinder_selector+" ul.folders a",function(){
             var ths = $(this);
             var url = ths.attr("href");
@@ -615,7 +615,7 @@
         });
 
 
-        //Dosyaya yada Klasöre Tıklandığında
+        //Dosyaya yada Directorye Tıklandığında
         $body.on("click",fcfinder_selector+" .right ul.wrapper li div",function(){
             var ths = $(this);
             if (ths.attr("class")!="list_head"){
@@ -644,7 +644,7 @@
 
         });
 
-        //Klasör Ağacında Artı yada Eksiye Basıldığında
+        //Directory Ağacında Artı yada Eksiye Basıldığında
         $body.on("click",fcfinder_selector+' .left #all_folders ul.folders li a span.braca',function(){
 
             var ths = $(this);
@@ -679,7 +679,7 @@
         });
 
 
-        //Dosya Boyutu Göster / Gizle
+        //File Size Show / Hide
         $body.on("click",fcfinder_selector+" .right ul.widget li a.show_size",function(){
             if (Cookies.getCookie('FCFINDER_view_type')=="icon"){
                 var show = $(this).attr("data-show");
@@ -702,7 +702,7 @@
         });
 
 
-        //Dosya Tarihi Göster / Gizle
+        //File Date Show / Hide
         $body.on("click",fcfinder_selector+" .right ul.widget li a.show_date",function(){
             if (Cookies.getCookie('FCFINDER_view_type')=="icon"){
                 var show = $(this).attr("data-show");
@@ -725,7 +725,7 @@
             return false;
         });
 
-        //Yeni Klasör Oluşturma
+        //Yeni Directory Oluşturma
         $body.on("click",fcfinder_selector+" .right ul.widget li a.new_folder",function(){
             var dir = fcfinder.find(".right ul.wrapper li[data-show='true']");
             if (dir.html()==opts.i18n.empty_dir){dir.html("");}
@@ -741,7 +741,7 @@
             return false;
         });
 
-        //Sayfa Yenileme
+        //Sayfa Refresh
         $body.on("click",fcfinder_selector+" .right ul.widget li a.refresh",function(){
             var left_wrapper = fcfinder.find(".left #all_folders ul li a.active");
             var right_wrapper =  fcfinder.find(".right  ul.wrapper li.file_wrapper[data-show='true']");
@@ -781,7 +781,7 @@
 
 
 
-        //Dosya İndirme
+        //File Download
         $body.on("click",fcfinder_selector+" .right ul.widget li a.download",function(){
             if (!$(this).hasClass("passive")){
                 var path = fcfinder.find(".right ul.wrapper li div.active").attr("data-path").replace("fcdir:/","");
@@ -829,7 +829,7 @@
 
 
 
-        //Dosya Bilgilerini Göster
+        //File Info Göster
         $body.on("click",fcfinder_selector+" .right ul.widget li a.info",function(){
             if (!$(this).hasClass("passive")){
                 var file = fcfinder.find(".right ul.wrapper li div.active");
@@ -866,7 +866,7 @@
         });
 
 
-        //Dosyayı Önizle
+        //Dosyayı Preview
         $body.on("click",fcfinder_selector+" .right ul.widget li a.preview",function(){
             if (!$(this).hasClass("passive")){
                 var file = fcfinder.find(".right ul.wrapper li div.active");
@@ -915,7 +915,7 @@
             return false;
         });
 
-        //Dosya Kopyala
+        //File Copy
         $body.on("click",fcfinder_selector+" .right ul.widget li a.copy",function(){
             if (!$(this).hasClass("passive")){
                 var file = fcfinder.find(".right ul.wrapper li div.active");
@@ -928,7 +928,7 @@
         });
 
 
-        //Dosya Kesme
+        //File Cut
         $body.on("click",fcfinder_selector+" .right ul.widget li a.cut",function(){
             if (!$(this).hasClass("passive")){
                 fcfinder.find(".right ul.wrapper li div").removeClass("cutting");
@@ -942,7 +942,7 @@
             return false;
         });
 
-        //Dosya Yapıştırma
+        //File Paste
         $body.on("click",fcfinder_selector+" .right ul.widget li a.paste",function(){
             var $ths = $(this);
             if (!$ths.hasClass("passive")){
@@ -992,7 +992,7 @@
         });
 
 
-        //Dosya Yapıştırma (Aynı İsimde Dosya Değiştirme)
+        //File Paste ( Changing File with the same name )
         $body.on("click",fcfinder_selector+" .dialog a.file_copy_ok",function(){
             var data = fcfinder.find(".dialog input[name='data_input']").val();
             $.ajax({
@@ -1010,7 +1010,7 @@
 
 
 
-        //Dosya Kopyasını Oluşturma
+        //File Duplicate
         $body.on("click",fcfinder_selector+" .right ul.widget li a.duplicate",function(){
             if (!$(this).hasClass("passive")){
                 var file_path = fcfinder.find(".right ul.wrapper li div.active").attr("data-path");
@@ -1023,7 +1023,7 @@
                             fcfinder.find(".right ul.widget li a.refresh").trigger("click");
                         }else
                         {
-                            //Kopyası Oluşmadı
+                            //Kopyası Oluşmname
                             fnc.prepend_dialog(opts.i18n.faild_process,opts.i18n.error.duplicate_error.format(data[2]),{type:"p",dialog_class:'danger'});
                         }
                     }});
@@ -1034,7 +1034,7 @@
 
 
 
-        //Dosya Yeniden Adlandırma
+        //File Rename
         $body.on("click",fcfinder_selector+" .right ul.widget li a.rename",function(){
             if (!$(this).hasClass("passive")){
                 var file = fcfinder.find(".right ul.wrapper li div.active");
@@ -1057,7 +1057,7 @@
 
 
 
-        //Dosya Yeniden Adlandırma Form Submit
+        //File Rename Form Submit
         $body.on("submit",fcfinder_selector+" #file_rename",function(){
             var data = $(this).serialize();
             $.ajax({
@@ -1065,7 +1065,7 @@
                     if (data[0]=="true"){
                         fcfinder.find(".right ul.widget li a.refresh").trigger("click");
                     }else {
-                        //Bir hata meydana geldi adı değiştirilemedi
+                        //Bir hata meydana geldi name değiştirilemedi
                         fnc.prepend_dialog(opts.i18n.faild_process,opts.i18n.error.rename_error.format(data[2]),{type:"p",dialog_class:'danger'});
                     }
                 }});
@@ -1073,7 +1073,7 @@
         });
 
 
-        //Dosya Düzenleme (pixlr)
+        //File Edit (pixlr)
         $body.on("click",fcfinder_selector+" .right ul.widget li a.edit",function(){
             if (!$(this).hasClass("passive")){
                 var data = "fcfinder[type]=edit_file&fcfinder[file_path]="+fcfinder.find(".right ul.wrapper li div.active").attr("data-path");
@@ -1092,7 +1092,7 @@
 
 
 
-        //Dosya Silme
+        //File Delete
         $body.on("click",fcfinder_selector+" .right ul.widget li a.delete",function(){
             if (!$(this).hasClass("passive")){
                 var file = fcfinder.find(".right ul.wrapper li div.active");
@@ -1112,7 +1112,7 @@
         });
 
 
-        //Dosya Silme Onayı
+        //File Delete Confirmation
         $body.on("click",fcfinder_selector+" .dialog a.file_delete",function(){
             var file_path = fcfinder.find("form#delete_file_form input[name='file_path']").val();
             var data = "fcfinder[type]=delete&fcfinder[file_path]="+file_path;
@@ -1136,7 +1136,7 @@
 
 
 
-        //Ada Göre Dosya Listeleme
+        //Ada Göre File Listeleme
         $body.on("click",fcfinder_selector+" .right ul.widget li a.name_sorter",function(){
             if (!$(this).hasClass("passive")){
                 var $ul = fcfinder.find(".right ul.wrapper li.file_wrapper[data-show='true']"),
@@ -1170,7 +1170,7 @@
 
 
 
-        //Boyuta Göre Dosya Listeleme
+        //Boyuta Göre File Listeleme
         $body.on("click",fcfinder_selector+" .right ul.widget li a.size_sorter",function(){
             if (!$(this).hasClass("passive")){
                 var $ul = fcfinder.find(".right ul.wrapper li.file_wrapper[data-show='true']"),
@@ -1204,7 +1204,7 @@
 
 
 
-        //Tarihine Göre Dosya Listeleme
+        //Date Göre File Listeleme
         $body.on("click",fcfinder_selector+" .right ul.widget li a.date_sorter",function(){
             if (!$(this).hasClass("passive")){
                 var $ul = fcfinder.find(".right ul.wrapper li.file_wrapper[data-show='true']"),
@@ -1236,7 +1236,7 @@
             return false;
         });
 
-        //Türüne Göre Dosya Listeleme
+        //Türüne Göre File Listeleme
         $body.on("click",fcfinder_selector+" .right ul.widget li a.kind_sorter",function(){
             if (!$(this).hasClass("passive")){
                 var $ul = fcfinder.find(".right ul.wrapper li.file_wrapper[data-show='true']"),
@@ -1271,7 +1271,7 @@
 
 
 
-        //Simge Görünümü
+        //Icon View
         $body.on("click",fcfinder_selector+" .right ul.widget li a.icon_view",function(){
             if (!$(this).hasClass("passive")) {
                 fcfinder.find(".right ul.wrapper").removeClass("list_view").addClass("icon_view");
@@ -1283,7 +1283,7 @@
             return false;
         });
 
-        //Liste Görünümü
+        //List View
         $body.on("click",fcfinder_selector+" .right ul.widget li a.list_view",function(){
             if (!$(this).hasClass("passive")) {
                 fcfinder.find(".right ul.wrapper li[data-show='true']").prepend('<div class="list_head"><span class="file_name">'+opts.i18n.file_name+'</span><span class="file_size">'+opts.i18n.file_size+'</span><span class="file_date">'+opts.i18n.file_cdate+'</span></div>');
@@ -1620,7 +1620,7 @@
 
 
 
-        //Yeni Klasör Form Submit
+        //Yeni Directory Form Submit
         $body.on("submit",fcfinder_selector+" #new_directory",function(){
             var data = $(this).serialize();
             $.ajax({
@@ -1653,7 +1653,7 @@
 
 
 
-        //Hakkında Sayfası
+        //About Sayfası
         $body.on("click",fcfinder_selector+" .right ul.widget li a.about",function(){
             return false;
         });
