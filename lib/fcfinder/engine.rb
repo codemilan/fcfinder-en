@@ -1,6 +1,6 @@
 module Fcfinder
   class Engine < ::Rails::Engine
-    initializer "fcfinder.assets.precompile" do |app|
+    initializer "fcfinder-en.assets.precompile" do |app|
       #app.config.assets.precompile += %w(../../vendor/assets/fcfinder/*)
       #app.config.assets.precompile += %w(../vendor/assets/images/fcfinder/*)
       #app.config.assets.precompile += %w(fcfinder.css.erb)
