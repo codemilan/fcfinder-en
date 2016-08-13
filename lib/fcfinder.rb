@@ -1,7 +1,0 @@
-require 'fileutils'
-require 'zip'
-require 'mini_magick'
-require 'fcfinder/version'
-require 'fcfinder/engine'
-require 'fcfinder/zip_file_generator'
-require 'fcfinder/connector'

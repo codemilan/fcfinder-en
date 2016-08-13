@@ -1,0 +1,7 @@
+require 'fileutils'
+require 'zip'
+require 'mini_magick'
+require 'fdfinder/version'
+require 'fdfinder/engine'
+require 'fdfinder/zip_file_generator'
+require 'fdfinder/connector'

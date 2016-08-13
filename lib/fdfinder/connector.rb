@@ -1,4 +1,4 @@
-module Fcfinder
+module Fdfinder
   class Connector
     attr_reader :run
 

@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fcfinder/version'
+require 'fdfinder/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "fcfinder"
-  spec.version       = Fcfinder::VERSION
-  spec.authors       = ["Furkan \xC3\x87elik"]
-  spec.email         = ["furkan.celik32@gmail.com"]
+  spec.name          = "fdfinder"
+  spec.version       = Fdfinder::VERSION
+  spec.authors       = ["Furkan \xC3\x87elik", "Indra Dhanurendra"]
+  spec.email         = ["furkan.celik32@gmail.com", "indra.dhanurendra@gmail.com"]
 
-  spec.summary       = %q{Rails icin web dosya gezgini}
-  spec.description   = %q{Dosya yukleme klasor olusturma gibi islemleri hızlıbir şekilde yapabileceginiz cke tinymce gibi editorlerle entegreli kullanacieceginiz dosya gezgini}
-  spec.homepage      = "https://github.com/furkancelik/fcfinder"
+  spec.summary       = %q{Rails web-based file explorer}
+  spec.description   = %q{Web File Manager For The Rails Integrated in ckeditor and TinyMCE with File Explorer you can use as a quick and simple way. English version of Fcvinder}
+  spec.homepage      = "https://github.com/indradha/fcfinder-en"
   spec.license       = "MIT"
 
   
