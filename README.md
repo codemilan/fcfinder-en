@@ -5,6 +5,8 @@
 Web File Manager For The Rails 
 Integrated in ckeditor and TinyMCE with File Explorer you can use as a quick and simple way.
 
+Fdfinder is English version of Fcfinder (I'm still translating and setting all the things around)
+
 ![Arayuzu](https://raw.githubusercontent.com/furkancelik/fcfinder/master/screenshots/fcfinder_interface.png)
 
 ## Requirements

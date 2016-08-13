@@ -1,3 +1,3 @@
 module Fdfinder
-  VERSION = "1.0.1.en"
+  VERSION = "1.0.0"
 end
